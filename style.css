@@ -28,7 +28,7 @@
 .child-container-3 img,
 .child-container-4 img {
   width: 100%;
-  transition: all 0.5s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 .child-container-1 p,
 .child-container-2 p,
