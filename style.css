@@ -1,0 +1,68 @@
+.parent-container {
+  /* border: 2px solid #000; */
+  width: 90%;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.child-container-1,
+.child-container-2,
+.child-container-3,
+.child-container-4 {
+  /* border: 2px solid red; */
+  width: 22%;
+  height: 500px;
+  margin-top: 20px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  transition: background-color 0.5s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+.child-container-1 img,
+.child-container-2 img,
+.child-container-3 img,
+.child-container-4 img {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.child-container-1 p,
+.child-container-2 p,
+.child-container-3 p,
+.child-container-4 p {
+  opacity: 0;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  transition: opacity 1s ease;
+}
+.child-container-1:hover img,
+.child-container-2:hover img,
+.child-container-3:hover img,
+.child-container-4:hover img {
+  display: none;
+}
+.child-container-1:hover,
+.child-container-2:hover {
+  background-color: #f44336;
+}
+.child-container-2:hover {
+  background-color: blueviolet;
+}
+.child-container-1:hover p,
+.child-container-2:hover p,
+.child-container-3:hover p,
+.child-container-4:hover p {
+  opacity: 1;
+}
+.child-container-3:hover
+{
+    background-color: yellow;
+}
+.child-container-4:hover {
+  background-color: skyblue;
+}
